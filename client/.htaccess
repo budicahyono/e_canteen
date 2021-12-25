@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^([^/.]+)$ ?page=$1&sub=index [L]
+RewriteRule ^([^/.]+)/([^/.]+)$ ?page=$1&sub=$2 [L]
+RewriteRule ^([^/.]+)/([^/.]+)/([^/.]+)$ ?page=$1&sub=$2&id=$3 [L]
+
+
+
+
+
+
